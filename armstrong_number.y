@@ -1,0 +1,11 @@
+n=input();
+num=n;
+sum=0;
+while(n>0):
+    digit=n%10;
+    sum=sum+(digit*digit*digit);
+    n=n//10;
+if(num==sum):
+    print("yes");
+else:
+    print("no");
